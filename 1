@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+#include<stdlib.h>
+
+voidmain()
+
+{
+
+int num;
+
+
+
+printf("Number : ");   
+scanf("%d", &num);
+
+
+if((num != 0) && (num % 2 == 0))
+
+    {
+
+           printf("짝수 \n");
+
+    }
+
+    else if(num % 2 == 1)  //  나머지가 1일때
+
+    {
+
+           printf("홀수\n");
+
+    }
+
+    else
+
+           printf( " 0 \n" );
+system("PAUSE");
+
+}
